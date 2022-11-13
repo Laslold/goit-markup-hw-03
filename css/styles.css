@@ -1,0 +1,314 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --color-bg-footer: #2f303a;
+  --color-about: #f5f4fa;
+  --text-link-footer: rgba(255, 255, 255, 0.6);
+  --text-logo-header: #000000;
+  --color-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* синий цвет #2196F3 */
+/* цвет телефона и email футере rgba(255, 255, 255, 0.6); */
+/* белый цвет #ffffff */
+/* цвет лого в header #000000 */
+/* цвет футера и мейн #2F303A; */
+/* цвет секции о нас  #F5F4FA */
+
+/* шапка сайта с навигацией  */
+/* логотип */
+/* .page-header{
+  background-color: rgb(186, 208, 186);
+} */
+.container{
+  margin: auto;
+  padding: auto;
+  width: 1200px;
+  outline: 3px solid red;
+}
+.logo {
+  /* display: inline-block; */
+  color: var(--text-logo-header);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* background-color: green; */
+}
+
+.logo>p{
+  margin: 0;
+  padding: 0;
+}
+.logo span {
+  color: var(--accent-color);
+}
+
+/* блок навигации */
+
+/* .main-nav{
+background-color: rosybrown;
+} */
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* блок адреса и телефона */
+/* .address-nav{
+  background-color: cyan;
+} */
+.address-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+}
+
+.address-nav .link:hover,
+.address-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* блок майн */
+/* блок секция */
+/* Deskription */
+.deskription {
+  background-color: var(--color-bg-footer);
+  text-align: center;
+margin-bottom: 94px;
+
+}
+
+.deskription-title {
+  margin: 0;
+  color: var(--white-color);
+  background-color: var(--color-bg-footer);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+}
+/* button */
+.deskription-button {
+  display: inline-block;
+  margin-top: 30px;
+  min-width: 215px;
+  box-shadow: var(--color-box-shadow);
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+/* цвет заголовков всех секций */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin:0 0 50px;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+/* feature */
+.section{
+ padding-bottom: 94px;
+}
+
+.feature-list p{
+  margin: 0;
+  padding: 0;
+}
+
+.feature-list {
+  margin: 0;
+  padding: 0;
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.feature-list .title {
+  margin: 0 0 10px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* about */
+.about {
+  background-color: var(--color-about);
+  padding: 0;
+}
+
+.about-list {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.about-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+ margin:30px 0 0 0;
+}
+.about-list p {
+  margin: 10px 0 0 0;
+}
+
+/* footer */
+.footer {
+  background-color: var(--color-bg-footer);
+}
+
+.footer-logo {
+  display: inline-block;
+  color: var(--white-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  margin-top: 60px;
+}
+
+.footer-logo span {
+  color: var(--accent-color);
+}
+
+.address-list {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  margin-top: 20px;
+}
+.address-list p{
+  margin: 9px 0 0 0;
+}
+
+.address-list .link {
+  display: inline-block;
+  color: var(--text-link-footer);
+}
+
+.footer-list{
+  margin: 9px 0 0 0;
+  padding-bottom: 60px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+
+.btn {
+  display: inline-block;
+  color: var(--title-text-color);
+  background-color: var(--color-about);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+  min-width: 73px;
+ padding: 6px 22px; 
+ margin-bottom: 50px;
+border-radius: 4px;
+border: transparent;
+
+}
+
+.btn.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  
+}
+
+.btn.secondary {
+  color: var(--title-text-color);
+  background-color: var(--color-about);
+}
+.section-filtr .btn:hover,
+.section-filtr .btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+/* стили карточек */
+.portfolio-list .wrapper {
+  font-size: 16px;
+}
+.portfolio-list  .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin: 20px 0 0 0;
+}
+.portfolio-list p{
+  margin: 4px 0 0 0;
+}
