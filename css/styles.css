@@ -136,21 +136,27 @@ body {
 /* блок майн */
 /* блок секция */
 /* Deskription */
+.hero{
+  height: 600px;
+}
 .deskription {
   background-color: var(--color-bg-footer);
   text-align: center;
+  
 }
 
 .deskription-title {
-  margin: 0;
+   box-sizing: content-box;
+  margin: 0 auto;
   color: var(--white-color);
   background-color: var(--color-bg-footer);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 200px;
 }
 
 /* button */
