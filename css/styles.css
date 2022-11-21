@@ -138,18 +138,20 @@ body {
 /* Deskription */
 .hero{
   height: 600px;
+  background-color: var(--color-bg-footer);
+  text-align: center;
 }
-.deskription {
+/* .deskription {
   background-color: var(--color-bg-footer);
   text-align: center;
   
-}
+} */
 
 .deskription-title {
    box-sizing: content-box;
   margin: 0 auto;
   color: var(--white-color);
-  background-color: var(--color-bg-footer);
+  /* background-color: var(--color-bg-footer); */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
