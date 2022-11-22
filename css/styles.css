@@ -180,6 +180,10 @@ padding-bottom: 200px;
   text-align: center;
 }
 
+.deskription-button:hover,
+.deskription-button:focus{
+  background-color: #188CE8;
+}
 /* цвет заголовков всех секций */
 .section-title {
   color: var(--title-text-color);
